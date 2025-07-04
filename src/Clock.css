@@ -1,0 +1,36 @@
+.frame {
+    background-color: blueviolet;
+    padding: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.timer-container > p {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    color: greenyellow;
+}
+
+.timer-container > .number {
+    height: 50px;
+    width: 50px;
+    background-color: #333;
+}
+
+.show-clock {
+    box-sizing: content-box;
+    border: 0;
+    padding: 0;
+}
